@@ -27,7 +27,7 @@ function Header () {
             
             <ul className="secondary-menu">
                 <li className="left-line"><Link to='/'>Log In</Link></li>
-                <li className="btn-like"><Link to='/'>Get Started</Link></li>
+                <li className="btn-like"><Link to='form'>Get Started</Link></li>
             </ul>    
         </header>
     );
