@@ -1,0 +1,63 @@
+.how-it-works h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #191F2B;
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
+.how-it-works p {
+    font-size: 16px;
+    text-align: center;
+    color: #B5B5B5;
+}
+.howItWorks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    margin: 50px auto 0 auto;
+}
+.howItWorks div {
+    /* border: 1px solid black; */
+    width: 25vw;
+    padding: 1.5em;
+    justify-content: space-between;
+}
+.howItWorks h3 {
+    font-size: 24px;
+    color: #191F2B;
+    margin: 30px 0;
+}
+.howItWorks p {
+    text-align: justify;
+    line-height: 24px;
+
+}
+.work-img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    display: inline-block;
+}
+.work-1 {
+    align-self: flex-start;
+}
+.work-2 {
+    align-self: center;
+
+}
+.work-3 {
+    align-self: flex-end
+}
+.curve-up, .curve-down {
+    max-width: 486px;
+    position: absolute;
+}
+.curve-up {
+    top: 2000px;
+    left: 500px;
+}
+.curve-down {
+    top: 2350px;
+    left: 300px;
+}

@@ -1,0 +1,61 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+ul.hero-desktop {
+    background-image: url(../assests/dotted_splash_bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    list-style: none;
+}
+
+
+ul.hero-desktop img {
+    list-style: none;
+}
+
+img.phone-right {
+    max-width: 360px;
+    margin-top: 160px;
+    margin-right: -100px;
+    
+}
+img.phone-left {
+    max-width: 360px;
+    position:relative;
+    z-index: 999;
+    right:70px;
+    top:20px;
+    left: -30px;
+}
+.hero-article h1 {
+    font-size: 68px;
+    font-weight: 800;
+    font-weight: 900;
+    line-height: 1.5em;
+    color: #191F2B;
+    margin-top: 50px;
+}
+.crypto {
+    color: #604AED;
+}
+.ngn {
+    Background: linear-gradient(106.12deg, #604AED -5.6%, rgba(207, 3, 240, 0.72) 108.17%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.hero-article p {
+    margin-top: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #8C8F95;
+}
+
+.hero-mobile, .app-icons {
+    display: none;
+}

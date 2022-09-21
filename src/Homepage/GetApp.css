@@ -1,0 +1,59 @@
+.app-section {
+    background: url(../assests/coinskash_dot_square_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.getApp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+}
+.getApp div {
+    width: 45%;
+    margin-top: 100px;
+}
+.getApp img {
+    display: inline-block;
+}
+.app-mobile {
+    display: none;
+}
+.getApp-article h2 {
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+.getApp-article p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #DFDBFB;
+    margin-top: 30px;
+}
+.getApp-logo {
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+.getApp-phone {
+    display: flex;
+}
+.phone-up {
+    position: relative;
+    z-index: 999;
+    left: 40px;
+    width: 100%;
+    height: auto;
+    max-width: 290px;
+}
+.phone-down {
+    position: relative;
+    right: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 245px;
+}

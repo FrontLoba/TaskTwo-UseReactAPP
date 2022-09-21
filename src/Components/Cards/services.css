@@ -1,0 +1,74 @@
+.y-CoinsKash {
+    text-align: center;
+}
+.y-CoinsKash h2 {
+    font-size: 48px;
+    color: #191F2B;
+    margin-top: 100px;
+}
+.y-CoinsKash p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #B5B5B5;
+    margin-top: 30px;
+}
+.y-cards {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+.y-coin {
+    width: 300px;
+    height: auto;
+    margin: 30px 30px;
+    padding: 30px;
+    box-shadow: 2px 4px 24px rgba(0, 0, 0, 0.04);
+}
+/* .y-coin div {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+} */
+
+.y-coin h3 {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #191F2B;
+    margin-top: 20px;
+}
+.y-coin p {
+    font-size: 16px;
+    text-align: center;
+    color: #8C8F95;
+    margin-top: 30px;
+
+}
+.yCoin-1 {
+    background-color: #F5FFFB;
+}
+.yCoin-2 {
+    background-color: #F8F6FF;
+}
+.yCoin-3 {
+    background-color: #FCF4FF;
+}
+.yCoin-4 {
+    background-color: #F8F6FF;
+}
+.yCoin-5 {
+    background-color: #EFFCFF;
+}
+.yCoin-6 {
+    background-color: #FFFDEA;
+}

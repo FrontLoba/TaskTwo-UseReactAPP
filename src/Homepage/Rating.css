@@ -1,0 +1,51 @@
+.rate-table-h3 {
+    font-size: 48px;
+    text-align: center;
+    color: #191F2B;
+    margin-top: 50px;
+}
+.rate-table-p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #B5B5B5;
+    margin-top: 10px;
+}
+.wide-screen {
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.wide-view {
+    width: 100%;
+    height: auto;
+    max-width: 1109px;
+}
+.rate-mobile-view {
+    display: none;
+}
+
+.rate-table-h3 {
+    font-size: 48px;
+    text-align: center;
+    color: #191F2B;
+    margin-top: 50px;
+}
+.rate-table-p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #B5B5B5;
+    margin-top: 10px;
+}
+.wide-screen {
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.wide-view {
+    width: 100%;
+    height: auto;
+    max-width: 1109px;
+}
+.rate-mobile-view {
+    display: none;
+}
