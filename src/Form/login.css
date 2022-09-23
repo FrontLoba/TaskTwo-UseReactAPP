@@ -1,0 +1,23 @@
+
+.Login input {
+    margin: 1.5em 0;
+  }
+
+.Login span {
+    display: flex;
+    margin-top: -5px;
+}
+
+
+.Login > label.visible {
+    font-size: 14px;;
+    
+}
+
+.Login input[type=checkbox] {
+    width: 20px;
+    background: #3F3F3F;
+    font-weight: 500;
+    margin-top: 7px;
+}
+

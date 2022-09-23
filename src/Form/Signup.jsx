@@ -1,16 +1,18 @@
-import React from 'react'
 import './signup.css'
 import { Link } from 'react-router-dom'
+import gIconTwo from "../assests/google_icon_flat-color.svg"
+
 
 
 const Signup = () => {
+  
   return (
     <div>
 
     <h1>Create your account</h1>
     <p>To create an account, kindly fill in the form provided below</p>
     
-        <button><img src="../assests/google_icon_flat-color.svg" alt="google icon"/>
+        <button><img src={gIconTwo} alt="google icon"/>
             <span>Continue with Google</span>
         </button>          
                 
@@ -297,7 +299,7 @@ const Signup = () => {
         <div className="formControl">
             <input type="submit" name="submit" id="submit" value="Create Account"/>
         </div>
-        <p className="login">Already have an account?<Link to="/">Log In</Link></p>
+        <p className="login">Already have an account?<Link to="/form/login">Log In</Link></p>
     </form>
 </div>
 

@@ -57,3 +57,72 @@
     height: auto;
     max-width: 245px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .getApp-phone {
+        display: none;
+    }
+    .app-mobile {
+        display: block;
+        text-align: center;
+    }
+    .app-mobile img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        /* margin-top: unset; */
+        position: relative;
+        /* top: 85px; */
+    }
+    .getApp {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .getApp div {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .getApp-logo {
+        margin-top: 2.5em;
+        margin-right: 10px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .getApp-article h2 {
+        font-size: calc(48px + 0.01wv);
+        line-height: 55px;
+        color: #FFFFFF;
+    }
+    .getApp-phone {
+        display: none;
+    }
+    .app-mobile {
+        display: block;
+        text-align: center;
+    }
+    .app-mobile img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        position: relative;
+        /* top: 85px; */
+    }
+    .getApp {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .getApp div {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .getApp-logo {
+        margin-top: 2.5em;
+        margin-right: 10px;
+    }
+}

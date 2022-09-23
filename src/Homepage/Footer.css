@@ -47,8 +47,21 @@ ul.im-icons {
     display: flex;
     gap: 20px;  
 }
-/* ul.im-icons li {
-    border-radius: 100%;
-    border: 1px solid white;
-    padding: 10px;
-} */
+
+@media screen and (max-width: 768px) {
+    .foot-up, .foot-down {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    .foot-up ul {
+        flex: 40%;
+        margin-bottom: 40px;
+        
+    }
+    .foot-down ul {
+        flex: 80%;
+        margin-bottom: 20px;
+    }
+}

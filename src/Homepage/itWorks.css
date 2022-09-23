@@ -61,3 +61,18 @@
     top: 2350px;
     left: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .howItWorks div {
+        width: 80vw;
+        padding: 2.5em;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .work-1, .work-2, .work-3 {
+        align-self: center;
+    }
+    .curve-line {
+        display: none;
+    }
+}

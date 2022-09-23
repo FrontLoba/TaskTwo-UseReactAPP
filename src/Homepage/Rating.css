@@ -49,3 +49,37 @@
 .rate-mobile-view {
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .rate-table-h3, .rate-table-p, .wide-screen {
+        display: none;
+    }
+    .rate-mobile-view {
+        display: block;
+    }
+    .rate-mobile-view {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .m-view-img {
+        width: 100%;
+        height: auto;
+        max-width: 380px;
+        margin-top: 50px;
+    }
+    .m-view-h3 {
+        font-size: 30px;
+        font-weight: bold;
+        
+        color: #191F2B;
+        
+    }
+    .m-view-p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #B5B5B5;
+        margin-top: 20px;
+        padding: 0 100px;
+    }
+}

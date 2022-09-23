@@ -6,11 +6,11 @@ import Reset from '../Form/Reset'
 import Logo from '../assests/CoinsKash_White_bg.svg'
 import LogoCoin from '../assests/CoinsKashwhite_2.svg'
 
-// import {Routes, Route} from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 
 const Formpage = () => {
+    
   return (
     <div className="main_pan">
 
@@ -23,11 +23,8 @@ const Formpage = () => {
             <Signup/>
             <Login/>
             <Reset/>
-        {/* <Routes>
-        <Route path='form/sign-up' element={<Signup/>}></Route> 
-        <Route path='form/login' element={<Login/>}></Route> 
-        <Route path='form/reset' element={<Reset/>}></Route> 
-        </Routes> */}
+
+
               
 
         </div>

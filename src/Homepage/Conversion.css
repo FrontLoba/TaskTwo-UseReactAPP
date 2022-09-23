@@ -32,3 +32,20 @@
     height: auto;
     max-width: 500px;
 }
+
+@media screen and (max-width: 768px) {
+    .conversion h2 {
+        max-width: none;
+    }
+    section.conversion {
+        padding: 0 1.5em;
+    }
+    .digit {
+        position: relative;
+        top: -50px;
+    }
+    
+    .manual-scale {
+        display: none;
+    }
+}

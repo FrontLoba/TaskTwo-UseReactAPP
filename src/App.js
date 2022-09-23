@@ -1,21 +1,23 @@
 import React from 'react';
 import './App.css';
+
 import Landing from './Pages/Landing';
-import {Routes, Route} from "react-router-dom"
 import Formpage from './Pages/Formpage';
+
+
+// import { BrowserRouter } from 'react-router-dom';
+import {Routes, Route} from "react-router-dom"
 
 
 
 
 function App() {
   return (
-    <div>
-      <Routes>
+    <Routes>
         <Route path='/' element={<Landing/>}></Route>
-        <Route path='/form' element={<Formpage/>}></Route>
-    
-        </Routes>
-    </div>
+        <Route path='sign-up' element={<Formpage/>}></Route>    
+    </Routes>
+
   );
 }
 
