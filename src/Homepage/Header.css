@@ -79,6 +79,11 @@ header ul li a:hover {
         font-size: 2.5em;
         cursor: pointer;        
     }
+
+    .close-menu {
+        display: none
+    }
+
     .close-icon{
         display: block;
         position: absolute;
@@ -86,7 +91,6 @@ header ul li a:hover {
         right: 0.25em;
         font-size: 4em;
         cursor: pointer;
-        transition: 5s ease;
     }
     .logo {
         padding-left: 1.5em;
@@ -97,7 +101,7 @@ header ul li a:hover {
     }
 
     .mobile-menu li {
-        padding: 1.5em 1em;
+        padding: 1.5em;
         border-bottom: 1px solid white;
         width: 100%;
     }
@@ -106,9 +110,12 @@ header ul li a:hover {
         color: white;
         margin-left: 20px;
     }
-    .mobile-menu li a:hover {
+    .mobile-menu  li a:hover {
         text-decoration: underline;
         font-weight: 500px;
+        color: white;
+        transition: 2s;
+
     }
     .mobile-list{
         display: block;
@@ -119,4 +126,4 @@ header ul li a:hover {
         min-height: 100vh;
         background-color: #191F2B;
     }
-}
+}   

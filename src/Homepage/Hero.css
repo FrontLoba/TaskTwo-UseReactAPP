@@ -75,7 +75,7 @@ img.phone-left {
 
     .hero-article h1 {
         margin-top: 20px;
-        /* font-size: 4.25em; */
+        font-size: calc(4.25em * 0.01vw);
         font-weight: 900;
         line-height: 1.3em;
     }
